@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+
+.class-header {
+    background-image: url(./img/header.background.jpg);
+    width: 100vw;
+    height: 10vh;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: flex-end;*/
+    align-items: center;
+}
+
+.logoheader img {
+    width: 15vw;
+    height: 10vh;
+    display: inline-block;
+    position: relative;
+}
+
+.lista li {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    left: 110rem;
+    border: 0.1rem red double;
+    border-radius: 0.3rem;
+}
+
+main {
+    background-image: url(./img/body.background.jpg);
+    width: 100vw;
+    height: 85vh;
+}
+
+.clase-section {
+    width: 20vw;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0.3rem;
+    justify-content: space-evenly;
+}
+
+.personajes {
+    background-image: url(./img/cajas.background.jpg);
+    border: 0.3rem black solid;
+    border-radius: 1rem;
+
+}
+.personajes img{
+    right: 30%;
+    width: 4rem;
+    display: inline-block;
+    position: relative;
+}
+
+.personajes h2 {
+    display: inline-block;
+    position: relative;
+    bottom: 35%;
+}
+
+.mapa {
+    width: 40vw;
+    height: 40vh;
+    left: 30vw;
+    bottom: 70vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.mapa p {
+    background-color: black;
+    border: 0.8rem black dotted;
+    border-radius: 0.8rem;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    left: 0rem;
+    top: 100%;
+    color: brown;
+    opacity: 0.9;
+}
+
+.mapa img {
+    display: inline-block;
+    position: relative;
+    opacity: 0.8;
+    border: 0.3rem black solid;
+    border-radius: 0.8rem;
+}
+
+footer {
+    background-image: url(./img/header.background.jpg);
+    width: 100vw;
+    height: 5vh;
+    background-size: cover;
+}
+
+.redes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.redes p {
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+span {
+    display: inline-block;
+    position: relative;
+    left: 30vw;
+}
